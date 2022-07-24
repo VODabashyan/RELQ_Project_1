@@ -1,0 +1,398 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="menu">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <div class="menu_bar">
+                <ul class="ul_1">
+                    <li><button class="menu_button" onclick=" location.href='index.html' ">Home</button></li>
+                    <li><button class="menu_button" onclick=" location.href='html/about.html' ">About</button></li>
+                    <li><button class="menu_button" onclick=" location.href='html/contact.html' ">Contact</button></li>
+                    <li><button class="menu_button" onclick=" location.href='html/my_account.html' ">My Account</button></li>
+                </ul>
+                <ul class="ul_2">
+                    <li><i class='fa fa-shopping-bag red-color fa-2x'></i></li>
+                    <li><p id="clickCount">0</p></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown_sort">
+            <h3>All Products</h3>
+            <label for="sort">Sort by:</label>
+            <select name="sort" class="sort">
+                <option>Default</option>
+                <option>Newest</option>
+                <option>Most Popular</option>
+                <option>Highest Price</option>
+                <option>Lowest Price</option>
+            </select>
+        </div>
+
+
+        <div class="images">
+            <div class="sub_div1">
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/champion-powerblend-graphic-crew-navy/product/9555155/color/9"
+                        target="_blank"><img src="img/img_1.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-a" value="5" />
+                        <label for="star-a"></label>
+
+                        <input type="radio" name="stars" id="star-b" value="4" />
+                        <label for="star-b"></label>
+
+                        <input type="radio" name="stars" id="star-c" value="3" />
+                        <label for="star-c"></label>
+
+                        <input type="radio" name="stars" id="star-d" value="2" />
+                        <label for="star-d"></label>
+
+                        <input type="radio" name="stars" id="star-e" value="1" />
+                        <label for="star-e"></label>
+                    </div>
+                    <h4>Champion Sweatshirt</h4>
+
+                    <div class="price_buy">
+                        <h3>$45.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/puma-cyber-sweatpants-light-gray-heather/product/9583278/color/290581"
+                        target="_blank"><img src="img/img_3.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-f" value="5" />
+                        <label for="star-f"></label>
+
+                        <input type="radio" name="stars" id="star-g" value="4" />
+                        <label for="star-g"></label>
+
+                        <input type="radio" name="stars" id="star-h" value="3" />
+                        <label for="star-h"></label>
+
+                        <input type="radio" name="stars" id="star-i" value="2" />
+                        <label for="star-i"></label>
+
+                        <input type="radio" name="stars" id="star-j" value="1" />
+                        <label for="star-j"></label>
+                    </div>
+
+                    <h4>Puma Sweatpants</h4>
+
+                    <div class="price_buy">
+                        <h3>$50.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/billy-reid-saddle-v-neck-sweater-camel/product/9436840/color/1430"
+                        target="_blank"><img src="img/img_5.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-k" value="5" />
+                        <label for="star-k"></label>
+
+                        <input type="radio" name="stars" id="star-l" value="4" />
+                        <label for="star-l"></label>
+
+                        <input type="radio" name="stars" id="star-m" value="3" />
+                        <label for="star-m"></label>
+
+                        <input type="radio" name="stars" id="star-n" value="2" />
+                        <label for="star-n"></label>
+
+                        <input type="radio" name="stars" id="star-o" value="1" />
+                        <label for="star-o"></label>
+                    </div>
+
+                    <h4>Billy Reid Sweater</h4>
+
+                    <div class="price_buy">
+                        <h3>$75.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/puma-winterized-hoodie-intense-red/product/9583352/color/26108"
+                        target="_blank"><img src="img/img_4.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-p" value="5" />
+                        <label for="star-p"></label>
+
+                        <input type="radio" name="stars" id="star-q" value="4" />
+                        <label for="star-q"></label>
+
+                        <input type="radio" name="stars" id="star-r" value="3" />
+                        <label for="star-r"></label>
+
+                        <input type="radio" name="stars" id="star-s" value="2" />
+                        <label for="star-s"></label>
+
+                        <input type="radio" name="stars" id="star-t" value="1" />
+                        <label for="star-t"></label>
+                    </div>
+
+                    <h4>Puma Winterized Hoodie</h4>
+
+                    <div class="price_buy">
+                        <h3>$60.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/columbia-powder-lite-jacket-red-quartz-shark/product/9244635/color/920504"
+                        target="_blank"><img src="img/img_6.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-u" value="5" />
+                        <label for="star-u"></label>
+
+                        <input type="radio" name="stars" id="star-v" value="4" />
+                        <label for="star-v"></label>
+
+                        <input type="radio" name="stars" id="star-w" value="3" />
+                        <label for="star-w"></label>
+
+                        <input type="radio" name="stars" id="star-x" value="2" />
+                        <label for="star-x"></label>
+
+                        <input type="radio" name="stars" id="star-y" value="1" />
+                        <label for="star-y"></label>
+                    </div>
+
+                    <h4>Columbia Powder Lite Jacket</h4>
+
+                    <div class="price_buy">
+                        <h3>$50.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/adidas-tiger-camo-pullover-hoodie-white/product/9591762/color/14"
+                        target="_blank"><img src="img/img_2.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-ua" value="5" />
+                        <label for="star-ua"></label>
+
+                        <input type="radio" name="stars" id="star-va" value="4" />
+                        <label for="star-va"></label>
+
+                        <input type="radio" name="stars" id="star-wa" value="3" />
+                        <label for="star-wa"></label>
+
+                        <input type="radio" name="stars" id="star-xa" value="2" />
+                        <label for="star-xa"></label>
+
+                        <input type="radio" name="stars" id="star-ya" value="1" />
+                        <label for="star-ya"></label>
+                    </div>
+
+                    <h4>adidas Pullover Hoodie</h4>
+
+                    <div class="price_buy">
+                        <h3>$30.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub_div2">
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/allsaints-chasma-lucia-hoodie-ivory-white/product/9669913/color/185173"
+                        target="_blank"><img src="img/img_7.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-aa" value="5" />
+                        <label for="star-aa"></label>
+
+                        <input type="radio" name="stars" id="star-bb" value="4" />
+                        <label for="star-bb"></label>
+
+                        <input type="radio" name="stars" id="star-cc" value="3" />
+                        <label for="star-cc"></label>
+
+                        <input type="radio" name="stars" id="star-dd" value="2" />
+                        <label for="star-dd"></label>
+
+                        <input type="radio" name="stars" id="star-ee" value="1" />
+                        <label for="star-ee"></label>
+                    </div>
+                    <h4>AllSaints Hoodie</h4>
+
+                    <div class="price_buy">
+                        <h3>$45.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/michael-lauren-hayworth-bandana-print-drop-shoulder-zip-up-hoodie-lilac-stone-ombre/product/9599124/color/942352"
+                        target="_blank"><img src="img/img_8.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-ff" value="5" />
+                        <label for="star-ff"></label>
+
+                        <input type="radio" name="stars" id="star-gg" value="4" />
+                        <label for="star-gg"></label>
+
+                        <input type="radio" name="stars" id="star-hh" value="3" />
+                        <label for="star-hh"></label>
+
+                        <input type="radio" name="stars" id="star-ii" value="2" />
+                        <label for="star-ii"></label>
+
+                        <input type="radio" name="stars" id="star-jj" value="1" />
+                        <label for="star-jj"></label>
+                    </div>
+
+                    <h4>Michael Lauren Hoodie</h4>
+
+                    <div class="price_buy">
+                        <h3>$55.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/u-s-polo-assn-long-sleeve-foil-logo-repeat-crew-neck-evening-blue/product/9697881/color/155814"
+                        target="_blank"><img src="img/img_9.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-kk" value="5" />
+                        <label for="star-kk"></label>
+
+                        <input type="radio" name="stars" id="star-ll" value="4" />
+                        <label for="star-ll"></label>
+
+                        <input type="radio" name="stars" id="star-mm" value="3" />
+                        <label for="star-mm"></label>
+
+                        <input type="radio" name="stars" id="star-nn" value="2" />
+                        <label for="star-nn"></label>
+
+                        <input type="radio" name="stars" id="star-oo" value="1" />
+                        <label for="star-oo"></label>
+                    </div>
+
+                    <h4>U.S. POLO ASSN.</h4>
+
+                    <div class="price_buy">
+                        <h3>$30.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/reebok-identity-big-logo-fleece-crew-frost-berry/product/9527313/color/918288"
+                        target="_blank"><img src="img/img_10.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-pp" value="5" />
+                        <label for="star-pp"></label>
+
+                        <input type="radio" name="stars" id="star-qq" value="4" />
+                        <label for="star-qq"></label>
+
+                        <input type="radio" name="stars" id="star-rr" value="3" />
+                        <label for="star-rr"></label>
+
+                        <input type="radio" name="stars" id="star-ss" value="2" />
+                        <label for="star-ss"></label>
+
+                        <input type="radio" name="stars" id="star-tt" value="1" />
+                        <label for="star-tt"></label>
+                    </div>
+
+                    <h4>Reebok Fleece Crew</h4>
+
+                    <div class="price_buy">
+                        <h3>$55.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/fila-valeria-hoodie-chinese-red-peacoat-white/product/9219846/color/194779"
+                        target="_blank"><img src="img/img_11.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-uu" value="5" />
+                        <label for="star-uu"></label>
+
+                        <input type="radio" name="stars" id="star-vv" value="4" />
+                        <label for="star-vv"></label>
+
+                        <input type="radio" name="stars" id="star-ww" value="3" />
+                        <label for="star-ww"></label>
+
+                        <input type="radio" name="stars" id="star-xx" value="2" />
+                        <label for="star-xx"></label>
+
+                        <input type="radio" name="stars" id="star-yy" value="1" />
+                        <label for="star-yy"></label>
+                    </div>
+
+                    <h4>Fila Valeria Hoodie</h4>
+
+                    <div class="price_buy">
+                        <h3>$65.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div id="div_1">
+                    <a href="https://www.6pm.com/p/the-north-face-logo-play-hoodie-ice-blue/product/9531024/color/2964"
+                        target="_blank"><img src="img/img_12.jpg" class="img1">
+                    </a>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-ub" value="5" />
+                        <label for="star-ub"></label>
+
+                        <input type="radio" name="stars" id="star-vb" value="4" />
+                        <label for="star-vb"></label>
+
+                        <input type="radio" name="stars" id="star-wb" value="3" />
+                        <label for="star-wb"></label>
+
+                        <input type="radio" name="stars" id="star-xb" value="2" />
+                        <label for="star-xb"></label>
+
+                        <input type="radio" name="stars" id="star-yb" value="1" />
+                        <label for="star-yb"></label>
+                    </div>
+
+                    <h4>The North Face Hoodie</h4>
+
+                    <div class="price_buy">
+                        <h3>$25.00</h3>
+                        <button type="button" onClick="clicks++;updateClickCount();">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
